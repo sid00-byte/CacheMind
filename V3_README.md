@@ -15,9 +15,9 @@ This version adds `agent_v3.py` and `test_v3.py` without changing v1/v2 artifact
 ```bash
 cd /workspace/projects/03-cachemind
 python -m unittest -v test_v3 test_v2 test_checker test_agent
-python agent_v3.py --backend llm --mode diagnostic --rounds 3 --repeat 1 --out results/v3_smoke.json
-nohup python agent_v3.py --backend llm --mode all --rounds 8 --repeat 5 --out results/v3_comparison.json > results/v3_comparison.log 2>&1 < /dev/null &
-tail -f results/v3_comparison.log
+python agent_v3.py --backend llm --mode diagnostic --rounds 3 --repeat 1 --out v3_smoke.json
+nohup python agent_v3.py --backend llm --mode all --rounds 8 --repeat 5 --out v3_comparison.json > v3_comparison.log 2>&1 < /dev/null &
+tail -f v3_comparison.log
 ```
 
 After completion:
@@ -25,7 +25,7 @@ After completion:
 ```bash
 python - <<'PY'
 import json
-with open('results/v3_comparison.json') as f: d=json.load(f)
+with open('v3_comparison.json') as f: d=json.load(f)
 print(json.dumps(d['summary'], indent=2))
 PY
 ```
