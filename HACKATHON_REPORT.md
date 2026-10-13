@@ -22,4 +22,4 @@ The diagnostic method achieved **28.2% lower modeled cost than random search** a
 ### Interpretation and limitations
 The experiment demonstrates a working model → checker → feedback loop and an **observed**, not statistically established, diagnostic-feedback advantage. Several repeated trajectories limit the independence of five trials. Random search was restricted to valid candidates. The objective, weights, and capacity are **analytical assumptions**, not AWS Neuron limits or calibrated hardware costs; candidate kernels were **not benchmarked on Trainium**. Next steps: test a broader held-out workload suite, compare against exhaustive search, improve diagnostic specificity, and measure selected kernels on-device if available.
 
-**Artifacts:** `checker_v2.py`, `agent_v3.py`, `test_v3.py`; `results/v3_comparison.json`, `results/v3_comparison.log`; `results/v3_feedback_test.json`.
+**Artifacts:** `checker_v2.py`, `agent_v3.py`, `test_v3.py`; `v3_comparison.json`, `v3_comparison.log`; `v3_feedback_test.json`.
