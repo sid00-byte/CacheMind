@@ -1,0 +1,166 @@
+[random seed=100 round=1] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 16} cost=13126901.76 repairs=0 reason=VALID: live=896/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=512 on square. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=100 round=2] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 32} cost=4544184.32 repairs=0 reason=VALID: live=3584/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=80 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=100 round=3] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 64} cost=3904184.3200000003 repairs=0 reason=VALID: live=6144/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=40 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=100 round=4] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 16} cost=5351139.2 repairs=0 reason=VALID: live=2304/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=100 round=5] cfg={'tile_m': 8, 'tile_n': 64, 'tile_k': 8} cost=13659697.92 repairs=0 reason=VALID: live=1088/6144; worst padded MAC ratio=2.1762 on ragged; most tile iterations=576 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=100 round=6] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 32} cost=7595237.12 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=100 round=7] cfg={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} cost=4477742.72 repairs=0 reason=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=100 round=8] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 32} cost=4457501.44 repairs=0 reason=VALID: live=3584/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=1] cfg={'tile_m': 32, 'tile_n': 16, 'tile_k': 16} cost=7836192.0 repairs=0 reason=VALID: live=1280/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=2] cfg={'tile_m': 64, 'tile_n': 32, 'tile_k': 8} cost=4387508.48 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=2.6114 on ragged; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=3] cfg={'tile_m': 8, 'tile_n': 64, 'tile_k': 8} cost=13659697.92 repairs=0 reason=VALID: live=1088/6144; worst padded MAC ratio=2.1762 on ragged; most tile iterations=576 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=4] cfg={'tile_m': 32, 'tile_n': 8, 'tile_k': 64} cost=7803712.640000001 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=1.6436 on wide; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=5] cfg={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} cost=6270874.24 repairs=0 reason=VALID: live=2304/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=136 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=6] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 64} cost=3904184.3200000003 repairs=0 reason=VALID: live=6144/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=40 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=7] cfg={'tile_m': 8, 'tile_n': 8, 'tile_k': 64} cost=15996192.0 repairs=0 reason=VALID: live=1088/6144; worst padded MAC ratio=1.6436 on wide; most tile iterations=528 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=101 round=8] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} cost=9399482.24 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=1] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 16} cost=13126901.76 repairs=0 reason=VALID: live=896/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=512 on square. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=2] cfg={'tile_m': 32, 'tile_n': 64, 'tile_k': 8} cost=4778633.600000001 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=2.6114 on ragged; most tile iterations=192 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=3] cfg={'tile_m': 32, 'tile_n': 32, 'tile_k': 8} cost=6862546.88 repairs=0 reason=VALID: live=1536/6144; worst padded MAC ratio=1.9586 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=4] cfg={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} cost=6270874.24 repairs=0 reason=VALID: live=2304/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=136 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=5] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 64} cost=7459134.72 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=144 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=6] cfg={'tile_m': 32, 'tile_n': 16, 'tile_k': 32} cost=5987370.24 repairs=0 reason=VALID: live=2048/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=7] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 8} cost=7354081.28 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.1762 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=102 round=8] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} cost=9399482.24 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=1] cfg={'tile_m': 32, 'tile_n': 64, 'tile_k': 16} cost=3665544.96 repairs=0 reason=VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=96 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=2] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} cost=5393169.92 repairs=0 reason=VALID: live=2304/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=144 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=3] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} cost=9399482.24 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=4] cfg={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} cost=3194639.36 repairs=0 reason=VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=5] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 8} cost=7354081.28 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.1762 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=6] cfg={'tile_m': 64, 'tile_n': 32, 'tile_k': 32} cost=2931150.08 repairs=0 reason=VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=40 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=7] cfg={'tile_m': 8, 'tile_n': 64, 'tile_k': 16} cost=9686481.92 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=288 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=103 round=8] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 32} cost=7595237.12 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=1] cfg={'tile_m': 8, 'tile_n': 8, 'tile_k': 16} cost=38293893.12 repairs=0 reason=VALID: live=320/6144; worst padded MAC ratio=1.3057 on ragged; most tile iterations=2048 on square. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=2] cfg={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} cost=3366965.12 repairs=0 reason=VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=3] cfg={'tile_m': 8, 'tile_n': 64, 'tile_k': 16} cost=9686481.92 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=288 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=4] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} cost=9399482.24 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=320 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=5] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 16} cost=5351139.2 repairs=0 reason=VALID: live=2304/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=6] cfg={'tile_m': 16, 'tile_n': 8, 'tile_k': 8} cost=34893292.48 repairs=0 reason=VALID: live=320/6144; worst padded MAC ratio=1.2241 on ragged; most tile iterations=2048 on square. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=7] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 8} cost=7358785.92 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=2.1762 on ragged; most tile iterations=288 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[random seed=104 round=8] cfg={'tile_m': 16, 'tile_n': 32, 'tile_k': 8} cost=10840079.68 repairs=0 reason=VALID: live=896/6144; worst padded MAC ratio=1.6321 on ragged; most tile iterations=512 on square. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[score seed=100 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=100 round=2] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=100 round=3] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=100 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=100 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=100 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=100 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=100 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=2] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=3] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=101 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=2] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=3] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=102 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=2] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=3] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=103 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=2] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=3] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[score seed=104 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[diagnostic seed=100 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[diagnostic seed=100 round=2] cfg={'tile_m': 8, 'tile_n': 16, 'tile_k': 32} cost=14558538.24 repairs=0 reason=VALID: live=896/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=544 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=3] cfg={'tile_m': 8, 'tile_n': 16, 'tile_k': 64} cost=10218538.24 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=272 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=100 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=100 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=100 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=100 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=101 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[diagnostic seed=101 round=2] cfg={'tile_m': 8, 'tile_n': 16, 'tile_k': 32} cost=14558538.24 repairs=0 reason=VALID: live=896/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=544 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=3] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 64} cost=7459134.72 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=144 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=101 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=101 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=101 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=101 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=102 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[diagnostic seed=102 round=2] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 64} cost=7459134.72 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=144 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=3] cfg={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} cost=4477742.72 repairs=0 reason=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=102 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=102 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=102 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=102 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=103 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[diagnostic seed=103 round=2] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 64} cost=7459134.72 repairs=0 reason=VALID: live=2816/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=144 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=3] cfg={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} cost=4477742.72 repairs=0 reason=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=103 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=103 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=103 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=103 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=104 round=1] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: MEMORY_CAPACITY: 8192 > 6144 elements; shrink one tile dimension.
+[diagnostic seed=104 round=2] cfg={'tile_m': 8, 'tile_n': 16, 'tile_k': 32} cost=14558538.24 repairs=0 reason=VALID: live=896/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=544 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=3] cfg={'tile_m': 8, 'tile_n': 16, 'tile_k': 64} cost=10218538.24 repairs=0 reason=VALID: live=1664/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=272 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=4] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=104 round=5] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=104 round=6] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=104 round=7] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+[diagnostic seed=104 round=8] cfg=None cost=None repairs=3 reason=REPAIR_FAILED: Duplicate proposal (not evaluated)
+SUMMARY
+{
+  "random": {
+    "successful_trials": 5,
+    "total_trials": 5,
+    "mean_best_cost": 3777023.4880000004,
+    "trial_best_cost": [
+      3904184.3200000003,
+      3904184.3200000003,
+      4778633.600000001,
+      2931150.08,
+      3366965.12
+    ],
+    "mean_round_to_best": 3.8,
+    "total_repair_requests": 0
+  },
+  "score": {
+    "successful_trials": 0,
+    "total_trials": 5,
+    "mean_best_cost": null,
+    "trial_best_cost": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "mean_round_to_best": null,
+    "total_repair_requests": 120
+  },
+  "diagnostic": {
+    "successful_trials": 5,
+    "total_trials": 5,
+    "mean_best_cost": 7370339.328,
+    "trial_best_cost": [
+      10218538.24,
+      7459134.72,
+      4477742.72,
+      4477742.72,
+      10218538.24
+    ],
+    "mean_round_to_best": 3.0,
+    "total_repair_requests": 90
+  }
+}
+Wrote results/v2_comparison.json

@@ -1,0 +1,164 @@
+[random seed=100 round=1] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 16} traffic=843492 score=1.185548 reason=Estimated live tile elements: 896/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=100 round=2] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 32} traffic=457084 score=2.187782 reason=Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=100 round=3] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 64} traffic=457084 score=2.187782 reason=Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=100 round=4] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 8} traffic=473824 score=2.110488 reason=Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=100 round=5] cfg={'tile_m': 8, 'tile_n': 64, 'tile_k': 8} traffic=751916 score=1.329936 reason=Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=100 round=6] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} traffic=764936 score=1.307299 reason=Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=100 round=7] cfg={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} traffic=548660 score=1.822622 reason=Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=100 round=8] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 16} traffic=473824 score=2.110488 reason=Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=1] cfg={'tile_m': 32, 'tile_n': 16, 'tile_k': 16} traffic=535244 score=1.868307 reason=Estimated live tile elements: 1280/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=2] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 64} traffic=473824 score=2.110488 reason=Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=3] cfg={'tile_m': 8, 'tile_n': 64, 'tile_k': 8} traffic=751916 score=1.329936 reason=Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=4] cfg={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} traffic=248248 score=4.02823 reason=Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=5] cfg={'tile_m': 32, 'tile_n': 8, 'tile_k': 64} traffic=826356 score=1.210132 reason=Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=6] cfg={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} traffic=682660 score=1.464858 reason=Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=7] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 64} traffic=457084 score=2.187782 reason=Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=101 round=8] cfg={'tile_m': 8, 'tile_n': 8, 'tile_k': 64} traffic=1268604 score=0.788268 reason=Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=1] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 16} traffic=843492 score=1.185548 reason=Estimated live tile elements: 896/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=2] cfg={'tile_m': 32, 'tile_n': 64, 'tile_k': 8} traffic=309668 score=3.229265 reason=Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=3] cfg={'tile_m': 32, 'tile_n': 32, 'tile_k': 8} traffic=401244 score=2.492249 reason=Estimated live tile elements: 1536/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=4] cfg={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} traffic=682660 score=1.464858 reason=Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=5] cfg={'tile_m': 8, 'tile_n': 32, 'tile_k': 64} traffic=843492 score=1.185548 reason=Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=6] cfg={'tile_m': 32, 'tile_n': 16, 'tile_k': 32} traffic=535244 score=1.868307 reason=Estimated live tile elements: 2048/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=7] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 64} traffic=764936 score=1.307299 reason=Estimated live tile elements: 5120/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=102 round=8] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 8} traffic=764936 score=1.307299 reason=Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=1] cfg={'tile_m': 64, 'tile_n': 64, 'tile_k': 32} traffic=248248 score=4.02823 reason=Estimated live tile elements: 8192/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=2] cfg={'tile_m': 32, 'tile_n': 64, 'tile_k': 16} traffic=309668 score=3.229265 reason=Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=3] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} traffic=457084 score=2.187782 reason=Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=4] cfg={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} traffic=248248 score=4.02823 reason=Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=5] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 8} traffic=764936 score=1.307299 reason=Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=6] cfg={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} traffic=309668 score=3.229265 reason=Estimated live tile elements: 5120/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=7] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 64} traffic=764936 score=1.307299 reason=Estimated live tile elements: 5120/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=103 round=8] cfg={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} traffic=339824 score=2.9427 reason=Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=1] cfg={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} traffic=248248 score=4.02823 reason=Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=2] cfg={'tile_m': 8, 'tile_n': 8, 'tile_k': 16} traffic=1268604 score=0.788268 reason=Estimated live tile elements: 320/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=3] cfg={'tile_m': 64, 'tile_n': 32, 'tile_k': 8} traffic=339824 score=2.9427 reason=Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=4] cfg={'tile_m': 8, 'tile_n': 64, 'tile_k': 16} traffic=751916 score=1.329936 reason=Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=5] cfg={'tile_m': 64, 'tile_n': 8, 'tile_k': 8} traffic=764936 score=1.307299 reason=Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=6] cfg={'tile_m': 64, 'tile_n': 16, 'tile_k': 8} traffic=473824 score=2.110488 reason=Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=7] cfg={'tile_m': 16, 'tile_n': 8, 'tile_k': 8} traffic=973772 score=1.026934 reason=Estimated live tile elements: 320/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[random seed=104 round=8] cfg={'tile_m': 16, 'tile_n': 64, 'tile_k': 8} traffic=457084 score=2.187782 reason=Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.
+[score seed=100 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=100 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=100 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=100 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[score seed=100 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=100 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=100 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=100 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=101 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=102 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=103 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=104 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=104 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=104 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=104 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[score seed=104 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=104 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=104 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[score seed=104 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=100 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[diagnostic seed=100 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=100 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=100 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=100 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=100 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=100 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=100 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=101 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[diagnostic seed=102 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=102 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[diagnostic seed=102 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=102 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=102 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=102 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=102 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[diagnostic seed=102 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+[diagnostic seed=103 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=103 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=103 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=103 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=103 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=103 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=103 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=103 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=1] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=2] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=3] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=4] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=5] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=6] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=7] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Model returned no JSON configuration
+[diagnostic seed=104 round=8] cfg=None traffic=None score=0.0 reason=LLM request or JSON parse failed: Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+
+SUMMARY
+{
+  "random": {
+    "successful_trials": 5,
+    "total_trials": 5,
+    "best_bytes_across_trials": 248248,
+    "mean_best_bytes_successful_trials": 302299.2,
+    "trial_best_bytes": [
+      457084,
+      248248,
+      309668,
+      248248,
+      248248
+    ]
+  },
+  "score": {
+    "successful_trials": 0,
+    "total_trials": 5,
+    "best_bytes_across_trials": null,
+    "mean_best_bytes_successful_trials": null,
+    "trial_best_bytes": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "diagnostic": {
+    "successful_trials": 0,
+    "total_trials": 5,
+    "best_bytes_across_trials": null,
+    "mean_best_bytes_successful_trials": null,
+    "trial_best_bytes": [
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  }
+}
+Wrote results/all.json

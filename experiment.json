@@ -1,0 +1,2352 @@
+{
+  "metadata": {
+    "backend": "random",
+    "base_url": null,
+    "model": null,
+    "rounds": 8,
+    "repeat": 5,
+    "proxy_is_hardware_measurement": false
+  },
+  "summary": {
+    "random": {
+      "successful_trials": 5,
+      "total_trials": 5,
+      "best_bytes_across_trials": 248248,
+      "mean_best_bytes_successful_trials": 302299.2,
+      "trial_best_bytes": [
+        457084,
+        248248,
+        309668,
+        248248,
+        248248
+      ]
+    }
+  },
+  "trials": [
+    {
+      "mode": "random",
+      "seed": 100,
+      "attempts": [
+        {
+          "round": 1,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 32,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.185548,
+            "aggregate_bytes": 843492,
+            "reason": "Estimated live tile elements: 896/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 180224,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 411648,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 251620,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.008
+        },
+        {
+          "round": 2,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 64,
+            "tile_k": 32
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.187782,
+            "aggregate_bytes": 457084,
+            "reason": "Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 143740,
+                "correct": true,
+                "max_abs_error": 1.1444091796875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 3,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 64,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.187782,
+            "aggregate_bytes": 457084,
+            "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 0.0
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 143740,
+                "correct": true,
+                "max_abs_error": 9.5367431640625e-06
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 4,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 16,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.110488,
+            "aggregate_bytes": 473824,
+            "reason": "Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 160480,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 5,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 64,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.329936,
+            "aggregate_bytes": 751916,
+            "reason": "Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 225580,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 6,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 8,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.307299,
+            "aggregate_bytes": 764936,
+            "reason": "Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 238600,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 7,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 32,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.822622,
+            "aggregate_bytes": 548660,
+            "reason": "Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 114688,
+                "correct": true,
+                "max_abs_error": 0.0
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 264192,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 169780,
+                "correct": true,
+                "max_abs_error": 9.5367431640625e-06
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 8,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 16,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.110488,
+            "aggregate_bytes": 473824,
+            "reason": "Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 160480,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        }
+      ],
+      "best": {
+        "round": 2,
+        "config": {
+          "tile_m": 16,
+          "tile_n": 64,
+          "tile_k": 32
+        },
+        "result": {
+          "valid": true,
+          "correct": true,
+          "score": 2.187782,
+          "aggregate_bytes": 457084,
+          "reason": "Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+          "per_workload": [
+            {
+              "workload": "square_small",
+              "shape": [
+                64,
+                64,
+                64
+              ],
+              "proxy_bytes": 98304,
+              "correct": true,
+              "max_abs_error": 7.62939453125e-06
+            },
+            {
+              "workload": "rectangular",
+              "shape": [
+                96,
+                128,
+                48
+              ],
+              "proxy_bytes": 215040,
+              "correct": true,
+              "max_abs_error": 1.33514404296875e-05
+            },
+            {
+              "workload": "irregular",
+              "shape": [
+                70,
+                93,
+                55
+              ],
+              "proxy_bytes": 143740,
+              "correct": true,
+              "max_abs_error": 1.1444091796875e-05
+            }
+          ]
+        }
+      },
+      "best_proxy_bytes": 457084
+    },
+    {
+      "mode": "random",
+      "seed": 101,
+      "attempts": [
+        {
+          "round": 1,
+          "config": {
+            "tile_m": 32,
+            "tile_n": 16,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.868307,
+            "aggregate_bytes": 535244,
+            "reason": "Estimated live tile elements: 1280/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 114688,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 239616,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 180940,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 2,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 16,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.110488,
+            "aggregate_bytes": 473824,
+            "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 0.0
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 160480,
+                "correct": true,
+                "max_abs_error": 9.5367431640625e-06
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 3,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 64,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.329936,
+            "aggregate_bytes": 751916,
+            "reason": "Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 225580,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 4,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 64,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 4.02823,
+            "aggregate_bytes": 248248,
+            "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 49152,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 116736,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 82360,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 5,
+          "config": {
+            "tile_m": 32,
+            "tile_n": 8,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.210132,
+            "aggregate_bytes": 826356,
+            "reason": "Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 180224,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 387072,
+                "correct": true,
+                "max_abs_error": 1.2159347534179688e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 259060,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 6,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 16,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.464858,
+            "aggregate_bytes": 682660,
+            "reason": "Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 147456,
+                "correct": true,
+                "max_abs_error": 0.0
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 313344,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 221860,
+                "correct": true,
+                "max_abs_error": 9.5367431640625e-06
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 7,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 64,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.187782,
+            "aggregate_bytes": 457084,
+            "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 0.0
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 143740,
+                "correct": true,
+                "max_abs_error": 9.5367431640625e-06
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 8,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 8,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 0.788268,
+            "aggregate_bytes": 1268604,
+            "reason": "Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 278528,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 608256,
+                "correct": true,
+                "max_abs_error": 1.2159347534179688e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 381820,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        }
+      ],
+      "best": {
+        "round": 4,
+        "config": {
+          "tile_m": 64,
+          "tile_n": 64,
+          "tile_k": 16
+        },
+        "result": {
+          "valid": true,
+          "correct": true,
+          "score": 4.02823,
+          "aggregate_bytes": 248248,
+          "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+          "per_workload": [
+            {
+              "workload": "square_small",
+              "shape": [
+                64,
+                64,
+                64
+              ],
+              "proxy_bytes": 49152,
+              "correct": true,
+              "max_abs_error": 7.62939453125e-06
+            },
+            {
+              "workload": "rectangular",
+              "shape": [
+                96,
+                128,
+                48
+              ],
+              "proxy_bytes": 116736,
+              "correct": true,
+              "max_abs_error": 1.9073486328125e-05
+            },
+            {
+              "workload": "irregular",
+              "shape": [
+                70,
+                93,
+                55
+              ],
+              "proxy_bytes": 82360,
+              "correct": true,
+              "max_abs_error": 1.33514404296875e-05
+            }
+          ]
+        }
+      },
+      "best_proxy_bytes": 248248
+    },
+    {
+      "mode": "random",
+      "seed": 102,
+      "attempts": [
+        {
+          "round": 1,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 32,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.185548,
+            "aggregate_bytes": 843492,
+            "reason": "Estimated live tile elements: 896/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 180224,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 411648,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 251620,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 2,
+          "config": {
+            "tile_m": 32,
+            "tile_n": 64,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 3.229265,
+            "aggregate_bytes": 309668,
+            "reason": "Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 65536,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 141312,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 102820,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 3,
+          "config": {
+            "tile_m": 32,
+            "tile_n": 32,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.492249,
+            "aggregate_bytes": 401244,
+            "reason": "Estimated live tile elements: 1536/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 81920,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 190464,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 128860,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 4,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 16,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.464858,
+            "aggregate_bytes": 682660,
+            "reason": "Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 147456,
+                "correct": true,
+                "max_abs_error": 0.0
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 313344,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 221860,
+                "correct": true,
+                "max_abs_error": 9.5367431640625e-06
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 5,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 32,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.185548,
+            "aggregate_bytes": 843492,
+            "reason": "Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 180224,
+                "correct": true,
+                "max_abs_error": 0.0
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 411648,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 251620,
+                "correct": true,
+                "max_abs_error": 9.5367431640625e-06
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 6,
+          "config": {
+            "tile_m": 32,
+            "tile_n": 16,
+            "tile_k": 32
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.868307,
+            "aggregate_bytes": 535244,
+            "reason": "Estimated live tile elements: 2048/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 114688,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 239616,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 180940,
+                "correct": true,
+                "max_abs_error": 1.1444091796875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 7,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 8,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.307299,
+            "aggregate_bytes": 764936,
+            "reason": "Estimated live tile elements: 5120/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.2159347534179688e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 238600,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 8,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 8,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.307299,
+            "aggregate_bytes": 764936,
+            "reason": "Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 238600,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        }
+      ],
+      "best": {
+        "round": 2,
+        "config": {
+          "tile_m": 32,
+          "tile_n": 64,
+          "tile_k": 8
+        },
+        "result": {
+          "valid": true,
+          "correct": true,
+          "score": 3.229265,
+          "aggregate_bytes": 309668,
+          "reason": "Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+          "per_workload": [
+            {
+              "workload": "square_small",
+              "shape": [
+                64,
+                64,
+                64
+              ],
+              "proxy_bytes": 65536,
+              "correct": true,
+              "max_abs_error": 7.62939453125e-06
+            },
+            {
+              "workload": "rectangular",
+              "shape": [
+                96,
+                128,
+                48
+              ],
+              "proxy_bytes": 141312,
+              "correct": true,
+              "max_abs_error": 1.52587890625e-05
+            },
+            {
+              "workload": "irregular",
+              "shape": [
+                70,
+                93,
+                55
+              ],
+              "proxy_bytes": 102820,
+              "correct": true,
+              "max_abs_error": 1.52587890625e-05
+            }
+          ]
+        }
+      },
+      "best_proxy_bytes": 309668
+    },
+    {
+      "mode": "random",
+      "seed": 103,
+      "attempts": [
+        {
+          "round": 1,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 64,
+            "tile_k": 32
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 4.02823,
+            "aggregate_bytes": 248248,
+            "reason": "Estimated live tile elements: 8192/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 49152,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 116736,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 82360,
+                "correct": true,
+                "max_abs_error": 1.1444091796875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 2,
+          "config": {
+            "tile_m": 32,
+            "tile_n": 64,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 3.229265,
+            "aggregate_bytes": 309668,
+            "reason": "Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 65536,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 141312,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 102820,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 3,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 64,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.187782,
+            "aggregate_bytes": 457084,
+            "reason": "Estimated live tile elements: 2304/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 143740,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 4,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 64,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 4.02823,
+            "aggregate_bytes": 248248,
+            "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 49152,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 116736,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 82360,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 5,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 8,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.307299,
+            "aggregate_bytes": 764936,
+            "reason": "Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 238600,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 6,
+          "config": {
+            "tile_m": 32,
+            "tile_n": 64,
+            "tile_k": 32
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 3.229265,
+            "aggregate_bytes": 309668,
+            "reason": "Estimated live tile elements: 5120/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 65536,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 141312,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 102820,
+                "correct": true,
+                "max_abs_error": 1.1444091796875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 7,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 8,
+            "tile_k": 64
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.307299,
+            "aggregate_bytes": 764936,
+            "reason": "Estimated live tile elements: 5120/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.2159347534179688e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 238600,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 8,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 32,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.9427,
+            "aggregate_bytes": 339824,
+            "reason": "Estimated live tile elements: 3584/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 65536,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 165888,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 108400,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        }
+      ],
+      "best": {
+        "round": 1,
+        "config": {
+          "tile_m": 64,
+          "tile_n": 64,
+          "tile_k": 32
+        },
+        "result": {
+          "valid": true,
+          "correct": true,
+          "score": 4.02823,
+          "aggregate_bytes": 248248,
+          "reason": "Estimated live tile elements: 8192/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+          "per_workload": [
+            {
+              "workload": "square_small",
+              "shape": [
+                64,
+                64,
+                64
+              ],
+              "proxy_bytes": 49152,
+              "correct": true,
+              "max_abs_error": 7.62939453125e-06
+            },
+            {
+              "workload": "rectangular",
+              "shape": [
+                96,
+                128,
+                48
+              ],
+              "proxy_bytes": 116736,
+              "correct": true,
+              "max_abs_error": 1.33514404296875e-05
+            },
+            {
+              "workload": "irregular",
+              "shape": [
+                70,
+                93,
+                55
+              ],
+              "proxy_bytes": 82360,
+              "correct": true,
+              "max_abs_error": 1.1444091796875e-05
+            }
+          ]
+        }
+      },
+      "best_proxy_bytes": 248248
+    },
+    {
+      "mode": "random",
+      "seed": 104,
+      "attempts": [
+        {
+          "round": 1,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 64,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 4.02823,
+            "aggregate_bytes": 248248,
+            "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 49152,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 116736,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 82360,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 2,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 8,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 0.788268,
+            "aggregate_bytes": 1268604,
+            "reason": "Estimated live tile elements: 320/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 278528,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 608256,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 381820,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.004
+        },
+        {
+          "round": 3,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 32,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.9427,
+            "aggregate_bytes": 339824,
+            "reason": "Estimated live tile elements: 2816/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 65536,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 165888,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 108400,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 4,
+          "config": {
+            "tile_m": 8,
+            "tile_n": 64,
+            "tile_k": 16
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.329936,
+            "aggregate_bytes": 751916,
+            "reason": "Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.9073486328125e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 225580,
+                "correct": true,
+                "max_abs_error": 1.33514404296875e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        },
+        {
+          "round": 5,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 8,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.307299,
+            "aggregate_bytes": 764936,
+            "reason": "Estimated live tile elements: 1088/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 163840,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 362496,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 238600,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 6,
+          "config": {
+            "tile_m": 64,
+            "tile_n": 16,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.110488,
+            "aggregate_bytes": 473824,
+            "reason": "Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_n; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 160480,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.002
+        },
+        {
+          "round": 7,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 8,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 1.026934,
+            "aggregate_bytes": 973772,
+            "reason": "Estimated live tile elements: 320/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try a larger tile_m or tile_n within the synthetic working-set limit. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 212992,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 460800,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 299980,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.005
+        },
+        {
+          "round": 8,
+          "config": {
+            "tile_m": 16,
+            "tile_n": 64,
+            "tile_k": 8
+          },
+          "result": {
+            "valid": true,
+            "correct": true,
+            "score": 2.187782,
+            "aggregate_bytes": 457084,
+            "reason": "Estimated live tile elements: 1664/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Try increasing tile_m; check working-set constraints first. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+            "per_workload": [
+              {
+                "workload": "square_small",
+                "shape": [
+                  64,
+                  64,
+                  64
+                ],
+                "proxy_bytes": 98304,
+                "correct": true,
+                "max_abs_error": 7.62939453125e-06
+              },
+              {
+                "workload": "rectangular",
+                "shape": [
+                  96,
+                  128,
+                  48
+                ],
+                "proxy_bytes": 215040,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              },
+              {
+                "workload": "irregular",
+                "shape": [
+                  70,
+                  93,
+                  55
+                ],
+                "proxy_bytes": 143740,
+                "correct": true,
+                "max_abs_error": 1.52587890625e-05
+              }
+            ]
+          },
+          "seconds": 0.001
+        }
+      ],
+      "best": {
+        "round": 1,
+        "config": {
+          "tile_m": 64,
+          "tile_n": 64,
+          "tile_k": 16
+        },
+        "result": {
+          "valid": true,
+          "correct": true,
+          "score": 4.02823,
+          "aggregate_bytes": 248248,
+          "reason": "Estimated live tile elements: 6144/8192. In this proxy, increasing tile_m reduces how often B is loaded, while increasing tile_n reduces how often A is loaded. Large spatial tiles are already selected; explore tile_k or retain this candidate. tile_k may change intermediate work but does not change this simplified traffic estimate.",
+          "per_workload": [
+            {
+              "workload": "square_small",
+              "shape": [
+                64,
+                64,
+                64
+              ],
+              "proxy_bytes": 49152,
+              "correct": true,
+              "max_abs_error": 7.62939453125e-06
+            },
+            {
+              "workload": "rectangular",
+              "shape": [
+                96,
+                128,
+                48
+              ],
+              "proxy_bytes": 116736,
+              "correct": true,
+              "max_abs_error": 1.9073486328125e-05
+            },
+            {
+              "workload": "irregular",
+              "shape": [
+                70,
+                93,
+                55
+              ],
+              "proxy_bytes": 82360,
+              "correct": true,
+              "max_abs_error": 1.33514404296875e-05
+            }
+          ]
+        }
+      },
+      "best_proxy_bytes": 248248
+    }
+  ]
+}

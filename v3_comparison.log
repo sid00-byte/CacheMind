@@ -1,0 +1,172 @@
+[random seed=100 round=1] proposed={'tile_m': 8, 'tile_n': 32, 'tile_k': 16} status=VALID cost=13126901.76 feedback=Rejected (score 0).
+[random seed=100 round=2] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 32} status=VALID cost=4544184.32 feedback=Rejected (score 0).
+[random seed=100 round=3] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 64} status=VALID cost=3904184.3200000003 feedback=Rejected (score 0).
+[random seed=100 round=4] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 16} status=VALID cost=5351139.2 feedback=Rejected (score 0).
+[random seed=100 round=5] proposed={'tile_m': 8, 'tile_n': 64, 'tile_k': 8} status=VALID cost=13659697.92 feedback=Rejected (score 0).
+[random seed=100 round=6] proposed={'tile_m': 64, 'tile_n': 8, 'tile_k': 32} status=VALID cost=7595237.12 feedback=Rejected (score 0).
+[random seed=100 round=7] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=Rejected (score 0).
+[random seed=100 round=8] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 32} status=VALID cost=4457501.44 feedback=Rejected (score 0).
+[random seed=101 round=1] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 16} status=VALID cost=7836192.0 feedback=Rejected (score 0).
+[random seed=101 round=2] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 8} status=VALID cost=4387508.48 feedback=Rejected (score 0).
+[random seed=101 round=3] proposed={'tile_m': 8, 'tile_n': 64, 'tile_k': 8} status=VALID cost=13659697.92 feedback=Rejected (score 0).
+[random seed=101 round=4] proposed={'tile_m': 32, 'tile_n': 8, 'tile_k': 64} status=VALID cost=7803712.640000001 feedback=Rejected (score 0).
+[random seed=101 round=5] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=Rejected (score 0).
+[random seed=101 round=6] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 64} status=VALID cost=3904184.3200000003 feedback=Rejected (score 0).
+[random seed=101 round=7] proposed={'tile_m': 8, 'tile_n': 8, 'tile_k': 64} status=VALID cost=15996192.0 feedback=Rejected (score 0).
+[random seed=101 round=8] proposed={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} status=VALID cost=9399482.24 feedback=Rejected (score 0).
+[random seed=102 round=1] proposed={'tile_m': 8, 'tile_n': 32, 'tile_k': 16} status=VALID cost=13126901.76 feedback=Rejected (score 0).
+[random seed=102 round=2] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 8} status=VALID cost=4778633.600000001 feedback=Rejected (score 0).
+[random seed=102 round=3] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 8} status=VALID cost=6862546.88 feedback=Rejected (score 0).
+[random seed=102 round=4] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=Rejected (score 0).
+[random seed=102 round=5] proposed={'tile_m': 8, 'tile_n': 32, 'tile_k': 64} status=VALID cost=7459134.72 feedback=Rejected (score 0).
+[random seed=102 round=6] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 32} status=VALID cost=5987370.24 feedback=Rejected (score 0).
+[random seed=102 round=7] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 8} status=VALID cost=7354081.28 feedback=Rejected (score 0).
+[random seed=102 round=8] proposed={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} status=VALID cost=9399482.24 feedback=Rejected (score 0).
+[random seed=103 round=1] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 16} status=VALID cost=3665544.96 feedback=Rejected (score 0).
+[random seed=103 round=2] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} status=VALID cost=5393169.92 feedback=Rejected (score 0).
+[random seed=103 round=3] proposed={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} status=VALID cost=9399482.24 feedback=Rejected (score 0).
+[random seed=103 round=4] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=Rejected (score 0).
+[random seed=103 round=5] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 8} status=VALID cost=7354081.28 feedback=Rejected (score 0).
+[random seed=103 round=6] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 32} status=VALID cost=2931150.08 feedback=Rejected (score 0).
+[random seed=103 round=7] proposed={'tile_m': 8, 'tile_n': 64, 'tile_k': 16} status=VALID cost=9686481.92 feedback=Rejected (score 0).
+[random seed=103 round=8] proposed={'tile_m': 64, 'tile_n': 8, 'tile_k': 32} status=VALID cost=7595237.12 feedback=Rejected (score 0).
+[random seed=104 round=1] proposed={'tile_m': 8, 'tile_n': 8, 'tile_k': 16} status=VALID cost=38293893.12 feedback=Rejected (score 0).
+[random seed=104 round=2] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=Rejected (score 0).
+[random seed=104 round=3] proposed={'tile_m': 8, 'tile_n': 64, 'tile_k': 16} status=VALID cost=9686481.92 feedback=Rejected (score 0).
+[random seed=104 round=4] proposed={'tile_m': 64, 'tile_n': 8, 'tile_k': 16} status=VALID cost=9399482.24 feedback=Rejected (score 0).
+[random seed=104 round=5] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 16} status=VALID cost=5351139.2 feedback=Rejected (score 0).
+[random seed=104 round=6] proposed={'tile_m': 16, 'tile_n': 8, 'tile_k': 8} status=VALID cost=34893292.48 feedback=Rejected (score 0).
+[random seed=104 round=7] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 8} status=VALID cost=7358785.92 feedback=Rejected (score 0).
+[random seed=104 round=8] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 8} status=VALID cost=10840079.68 feedback=Rejected (score 0).
+[score seed=100 round=1] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=Rejected (score 0).
+[score seed=100 round=2] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=Rejected (score 0).
+[score seed=100 round=3] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=Rejected (score 0).
+[score seed=100 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=Rejected (score 0).
+[score seed=100 round=5] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} status=VALID cost=5393169.92 feedback=Rejected (score 0).
+[score seed=100 round=6] proposed={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} status=VALID cost=2589572.48 feedback=Rejected (score 0).
+[score seed=100 round=7] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=Rejected (score 0).
+[score seed=100 round=8] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 64} status=VALID cost=4777370.24 feedback=Rejected (score 0).
+[score seed=101 round=1] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=Rejected (score 0).
+[score seed=101 round=2] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=Rejected (score 0).
+[score seed=101 round=3] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=Rejected (score 0).
+[score seed=101 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=Rejected (score 0).
+[score seed=101 round=5] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} status=VALID cost=5393169.92 feedback=Rejected (score 0).
+[score seed=101 round=6] proposed={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} status=VALID cost=2589572.48 feedback=Rejected (score 0).
+[score seed=101 round=7] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=Rejected (score 0).
+[score seed=101 round=8] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 64} status=VALID cost=4777370.24 feedback=Rejected (score 0).
+[score seed=102 round=1] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 32} status=VALID cost=4457501.44 feedback=Rejected (score 0).
+[score seed=102 round=2] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=Rejected (score 0).
+[score seed=102 round=3] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=Rejected (score 0).
+[score seed=102 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 64} status=VALID cost=3315501.44 feedback=Rejected (score 0).
+[score seed=102 round=5] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 32} status=VALID cost=4544184.32 feedback=Rejected (score 0).
+[score seed=102 round=6] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 32} status=VALID cost=5987370.24 feedback=Rejected (score 0).
+[score seed=102 round=7] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=Rejected (score 0).
+[score seed=102 round=8] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=Rejected (score 0).
+[score seed=103 round=1] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 32} status=VALID cost=4457501.44 feedback=Rejected (score 0).
+[score seed=103 round=2] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=Rejected (score 0).
+[score seed=103 round=3] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=Rejected (score 0).
+[score seed=103 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 64} status=VALID cost=3315501.44 feedback=Rejected (score 0).
+[score seed=103 round=5] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 32} status=VALID cost=5987370.24 feedback=Rejected (score 0).
+[score seed=103 round=6] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 32} status=VALID cost=4544184.32 feedback=Rejected (score 0).
+[score seed=103 round=7] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=Rejected (score 0).
+[score seed=103 round=8] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=Rejected (score 0).
+[score seed=104 round=1] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 32} status=VALID cost=4457501.44 feedback=Rejected (score 0).
+[score seed=104 round=2] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=Rejected (score 0).
+[score seed=104 round=3] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=Rejected (score 0).
+[score seed=104 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 64} status=VALID cost=3315501.44 feedback=Rejected (score 0).
+[score seed=104 round=5] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 32} status=VALID cost=5987370.24 feedback=Rejected (score 0).
+[score seed=104 round=6] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 32} status=VALID cost=4544184.32 feedback=Rejected (score 0).
+[score seed=104 round=7] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=Rejected (score 0).
+[score seed=104 round=8] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=Rejected (score 0).
+[diagnostic seed=100 round=1] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=2] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=3] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=VALID: live=3072/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=5] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} status=VALID cost=5393169.92 feedback=VALID: live=2304/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=144 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=6] proposed={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} status=VALID cost=2589572.48 feedback=VALID: live=6144/6144; worst padded MAC ratio=3.714 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=7] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=VALID: live=2304/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=136 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=100 round=8] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 64} status=VALID cost=4777370.24 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=1] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=2] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=3] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=VALID: live=3072/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=5] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} status=VALID cost=5393169.92 feedback=VALID: live=2304/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=144 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=6] proposed={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} status=VALID cost=2589572.48 feedback=VALID: live=6144/6144; worst padded MAC ratio=3.714 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=7] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=VALID: live=2304/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=136 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=101 round=8] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 64} status=VALID cost=4777370.24 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=1] proposed={'tile_m': 64, 'tile_n': 16, 'tile_k': 32} status=VALID cost=4457501.44 feedback=VALID: live=3584/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=2] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=3] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 64} status=VALID cost=3315501.44 feedback=VALID: live=5120/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=40 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=4] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 32} status=VALID cost=4544184.32 feedback=VALID: live=3584/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=80 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=5] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 32} status=VALID cost=5987370.24 feedback=VALID: live=2048/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=160 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=6] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=VALID: live=3072/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=7] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=102 round=8] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=1] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=2] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=3] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=VALID: live=3072/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=5] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} status=VALID cost=5393169.92 feedback=VALID: live=2304/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=144 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=6] proposed={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} status=VALID cost=2589572.48 feedback=VALID: live=6144/6144; worst padded MAC ratio=3.714 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=7] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=VALID: live=2304/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=136 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=103 round=8] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 64} status=VALID cost=4777370.24 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=1] proposed={'tile_m': 32, 'tile_n': 64, 'tile_k': 32} status=VALID cost=3194639.36 feedback=VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=2] proposed={'tile_m': 16, 'tile_n': 32, 'tile_k': 64} status=VALID cost=4477742.72 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=3] proposed={'tile_m': 64, 'tile_n': 32, 'tile_k': 16} status=VALID cost=3366965.12 feedback=VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=4] proposed={'tile_m': 32, 'tile_n': 32, 'tile_k': 32} status=VALID cost=3945501.4400000004 feedback=VALID: live=3072/6144; worst padded MAC ratio=2.0891 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=5] proposed={'tile_m': 16, 'tile_n': 64, 'tile_k': 16} status=VALID cost=5393169.92 feedback=VALID: live=2304/6144; worst padded MAC ratio=2.3213 on ragged; most tile iterations=144 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=6] proposed={'tile_m': 64, 'tile_n': 64, 'tile_k': 16} status=VALID cost=2589572.48 feedback=VALID: live=6144/6144; worst padded MAC ratio=3.714 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=7] proposed={'tile_m': 16, 'tile_n': 16, 'tile_k': 64} status=VALID cost=6270874.24 feedback=VALID: live=2304/6144; worst padded MAC ratio=1.6934 on wide; most tile iterations=136 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+[diagnostic seed=104 round=8] proposed={'tile_m': 32, 'tile_n': 16, 'tile_k': 64} status=VALID cost=4777370.24 feedback=VALID: live=3584/6144; worst padded MAC ratio=1.741 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.
+SUMMARY
+{
+  "random": {
+    "trials": 5,
+    "trials_with_valid_candidate": 5,
+    "trial_best_cost": [
+      3904184.3200000003,
+      3904184.3200000003,
+      4778633.600000001,
+      2931150.08,
+      3366965.12
+    ],
+    "mean_best_cost_successful_only": 3777023.4880000004,
+    "mean_round_to_best_successful_only": 3.8,
+    "valid_proposals": 40,
+    "invalid_or_duplicate_or_error_proposals": 0,
+    "total_evaluation_slots": 40
+  },
+  "score": {
+    "trials": 5,
+    "trials_with_valid_candidate": 5,
+    "trial_best_cost": [
+      2589572.48,
+      2589572.48,
+      3194639.36,
+      3194639.36,
+      3194639.36
+    ],
+    "mean_best_cost_successful_only": 2952612.608,
+    "mean_round_to_best_successful_only": 3.6,
+    "valid_proposals": 40,
+    "invalid_or_duplicate_or_error_proposals": 0,
+    "total_evaluation_slots": 40
+  },
+  "diagnostic": {
+    "trials": 5,
+    "trials_with_valid_candidate": 5,
+    "trial_best_cost": [
+      2589572.48,
+      2589572.48,
+      3194639.36,
+      2589572.48,
+      2589572.48
+    ],
+    "mean_best_cost_successful_only": 2710585.8559999997,
+    "mean_round_to_best_successful_only": 5.2,
+    "valid_proposals": 40,
+    "invalid_or_duplicate_or_error_proposals": 0,
+    "total_evaluation_slots": 40
+  }
+}
+Wrote results/v3_comparison.json

@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "model": "Qwen/Qwen3-8B",
+    "temperature": 0.7,
+    "rounds": 3,
+    "repeat": 1,
+    "budget_type": "one candidate per round; one LLM call per AI round, no retries",
+    "all_constraints_in_both_prompts": true,
+    "evaluation_is_synthetic_not_trainium_latency": true
+  },
+  "summary": {
+    "diagnostic": {
+      "trials": 1,
+      "trials_with_valid_candidate": 1,
+      "trial_best_cost": [
+        3194639.36
+      ],
+      "mean_best_cost_successful_only": 3194639.36,
+      "mean_round_to_best_successful_only": 1.0,
+      "valid_proposals": 3,
+      "invalid_or_duplicate_or_error_proposals": 0,
+      "total_evaluation_slots": 3
+    }
+  },
+  "trials": [
+    {
+      "mode": "diagnostic",
+      "seed": 100,
+      "attempts": [
+        {
+          "round": 1,
+          "proposed": {
+            "tile_m": 32,
+            "tile_n": 64,
+            "tile_k": 32
+          },
+          "status": "VALID",
+          "cost": 3194639.36,
+          "feedback": "VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.",
+          "checker_detail": "VALID: live=5120/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=48 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.",
+          "seconds": 1.627
+        },
+        {
+          "round": 2,
+          "proposed": {
+            "tile_m": 16,
+            "tile_n": 32,
+            "tile_k": 64
+          },
+          "status": "VALID",
+          "cost": 4477742.72,
+          "feedback": "VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.",
+          "checker_detail": "VALID: live=3584/6144; worst padded MAC ratio=1.793 on wide; most tile iterations=72 on wide. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.",
+          "seconds": 2.026
+        },
+        {
+          "round": 3,
+          "proposed": {
+            "tile_m": 64,
+            "tile_n": 32,
+            "tile_k": 16
+          },
+          "status": "VALID",
+          "cost": 3366965.12,
+          "feedback": "VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.",
+          "checker_detail": "VALID: live=3584/6144; worst padded MAC ratio=2.7855 on ragged; most tile iterations=80 on skinny. Compare boundary padding and tile-count overhead; changing K changes both padded work and loop count.",
+          "seconds": 2.031
+        }
+      ],
+      "best": {
+        "round": 1,
+        "config": {
+          "tile_m": 32,
+          "tile_n": 64,
+          "tile_k": 32
+        },
+        "cost": 3194639.36
+      },
+      "best_cost": 3194639.36,
+      "valid_proposals": 3,
+      "invalid_proposals": 0
+    }
+  ]
+}
