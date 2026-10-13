@@ -16,10 +16,10 @@ Additive extension: original `agent.py` and `checker.py` are unchanged. Version 
 ```bash
 cd /workspace/projects/03-cachemind
 python -m unittest -v test_v2 test_checker test_agent
-python agent_v2.py --mode random --rounds 8 --repeat 5 --out results/v2_random.json
-python agent_v2.py --backend llm --mode score --rounds 3 --repeat 1 --out results/v2_smoke.json
-nohup python agent_v2.py --backend llm --mode all --rounds 8 --repeat 5 --out results/v2_comparison.json > results/v2_comparison.log 2>&1 < /dev/null &
-tail -f results/v2_comparison.log
+python agent_v2.py --mode random --rounds 8 --repeat 5 --out v2_random.json
+python agent_v2.py --backend llm --mode score --rounds 3 --repeat 1 --out v2_smoke.json
+nohup python agent_v2.py --backend llm --mode all --rounds 8 --repeat 5 --out v2_comparison.json > v2_comparison.log 2>&1 < /dev/null &
+tail -f v2_comparison.log
 ```
 
 ## Scientific caveats
