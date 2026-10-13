@@ -18,7 +18,7 @@ Five trials each, eight proposals per trial (40 candidate slots per method). Low
 
 Diagnostic feedback achieved **28.2% lower average modeled cost than random search** and **8.2% lower than score-only** in these trials. This does **not** show faster convergence: its average best result occurred later (round 5.2 vs 3.6 for score-only). Several AI trajectories were repeated, limiting trial independence and generalizability. Results are preliminary, and the proxy is not a calibrated hardware performance model.
 
-Full original records: [`results/v3_comparison.json`](results/v3_comparison.json) and [`results/v3_comparison.log`](results/v3_comparison.log). The **original log predates a feedback-label-only fix**: in score mode, some `status=VALID` entries were printed as `Rejected (score 0).`. That label was incorrect; v3's LLM prompt uses the recorded `status` and `proxy_cost`, not that score-mode label. See [`results/v3_feedback_test.json`](results/v3_feedback_test.json) for the later verification. Original evidence is deliberately unchanged.
+Full original records: [`v3_comparison.json`](v3_comparison.json) and [`v3_comparison.log`](v3_comparison.log). The **original log predates a feedback-label-only fix**: in score mode, some `status=VALID` entries were printed as `Rejected (score 0).`. That label was incorrect; v3's LLM prompt uses the recorded `status` and `proxy_cost`, not that score-mode label. See [`v3_feedback_test.json`](v3_feedback_test.json) for the later verification. Original evidence is deliberately unchanged.
 
 ## How it works
 
@@ -48,7 +48,7 @@ Requires Python 3.10+ (recommended) and NumPy.
 ```bash
 python -m pip install -r requirements.txt
 python -m unittest -v test_v3 test_v2 test_checker test_agent
-python agent_v3.py --backend random --mode random --rounds 8 --repeat 5 --out results/local_random.json
+python agent_v3.py --backend random --mode random --rounds 8 --repeat 5 --out local_random.json
 ```
 
 ## Run with Qwen3-8B on a workshop Trainium pod
@@ -57,10 +57,10 @@ With the workshop's model already running on its OpenAI-compatible endpoint:
 
 ```bash
 cd /workspace/projects/03-cachemind
-python agent_v3.py --backend llm --mode diagnostic --rounds 3 --repeat 1 --out results/v3_smoke_new.json
+python agent_v3.py --backend llm --mode diagnostic --rounds 3 --repeat 1 --out v3_smoke_new.json
 nohup python agent_v3.py --backend llm --mode all --rounds 8 --repeat 5 \
-  --out results/v3_comparison_new.json > results/v3_comparison_new.log 2>&1 < /dev/null &
-tail -f results/v3_comparison_new.log
+  --out v3_comparison_new.json > v3_comparison_new.log 2>&1 < /dev/null &
+tail -f v3_comparison_new.log
 ```
 
 By default the client reads `KERNEL_AGENT_BASE_URL` (fallback `http://localhost:8000/v1`) and `KERNEL_AGENT_MODEL` (fallback `Qwen/Qwen3-8B`). Override them using `--base-url` and `--model`. For reproducibility, preserve the original result files rather than overwriting them.
@@ -73,8 +73,8 @@ By default the client reads `KERNEL_AGENT_BASE_URL` (fallback `http://localhost:
 | `checker_v2.py` | **Final checker**, validity, NumPy comparison, and proxy cost |
 | `workloads.py`, `checker.py`, `agent.py` | Workloads and supporting/v1 implementation; v3 reuses types and model client |
 | `test_v3.py`, `test_v2.py`, `test_checker.py`, `test_agent.py` | 16 automated tests |
-| `results/v3_comparison.json`, `.log` | Original hackathon experiment evidence |
-| `results/v3_feedback_test.json` | Verification after feedback-label correction |
+| `v3_comparison.json`, `.log` | Original hackathon experiment evidence |
+| `v3_feedback_test.json` | Verification after feedback-label correction |
 | `HACKATHON_REPORT.md` | One-page experimental report |
 | `V2_README.md`, `V3_README.md`, `V1_REPORT_TEMPLATE.md`, `agent_v2.py` | Development history |
 
